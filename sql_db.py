@@ -181,11 +181,11 @@ if __name__ == "__main__":
                        'warzywniak', '1 opakowanie', False)
         ingredient2_id = add_ingredient(conn, ingredient2)
 
-# testy
-#to_be_bought = select_where(conn, 'ingredients', already_bought=False)
-#print(f'Shopping list: {to_be_bought}')
-#now_bought = update(conn, 'ingredients', id=2, already_bought=True)
-#to_be_bought = select_where(conn, 'ingredients', already_bought=False)
-#print(f'Shopping list: {to_be_bought}')
-#delete_all(conn, 'ingredients')
-#delete_where(conn, 'ingredients', already_bought=True)
+        # tests
+        #to_be_bought = select_where(conn, 'ingredients', already_bought=False)
+        #print(f'Shopping list: {to_be_bought}')
+        #now_bought = update(conn, 'ingredients', id=2, already_bought=True)
+        #to_be_bought = select_where(conn, 'ingredients', already_bought=False)
+        #print(f'Shopping list: {to_be_bought}')
+        #delete_all(conn, 'ingredients')
+        #delete_where(conn, 'ingredients', already_bought=True)
